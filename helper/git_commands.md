@@ -16,29 +16,29 @@ Os comandos do git podem ser agrupados em:
 Comandos de alto nível usados no dia a dia:
 
 - `git add` → adiciona conteúdo de arquivos ao índice (staging).
-- `git commit` → registra mudanças no repositório.
-- `git branch` → lista, cria ou exclui branches.
-- `git checkout` → alterna branches ou restaura arquivos da árvore de trabalho.
-- `git switch` → alterna branches (alternativa moderna ao checkout).
-- `git merge` → une históricos de desenvolvimento.
-- `git rebase` → reaplica commits sobre outro ponto base.
-- `git clone` → clona um repositório em um novo diretório.
-- `git pull` → busca e integra alterações de outro repositório.
-- `git push` → envia commits para um repositório remoto.
-- `git status` → mostra o estado da árvore de trabalho.
-- `git log` → exibe histórico de commits.
-- `git diff` → mostra diferenças entre commits ou entre commit e árvore de trabalho.
-- `git tag` → cria, lista ou exclui tags.
-- `git stash` → guarda temporariamente mudanças não commitadas.
-- `git restore` → restaura arquivos da árvore de trabalho.
-- `git reset` → redefine o HEAD para um estado específico.
-- `git revert` → desfaz commits existentes criando commits inversos.
-- `git cherry-pick` → aplica mudanças introduzidas por commits existentes.
-- `git mv` / `git rm` → mover/renomear ou remover arquivos do índice e da árvore de trabalho.
+- [git commit](./../commands/commit.md) → registra mudanças no repositório.
+- [git branch](./../commands/branch.md) → lista, cria ou exclui branches.
+- [git checkout](./../commands/checkout.md) → alterna branches ou restaura arquivos da árvore de trabalho.
+- [git switch](./../commands/switch.md) → alterna branches (alternativa moderna ao checkout).
+- [git merge](./../commands/merge.md) → une históricos de desenvolvimento.
+- [git rebase](./../commands/rebase.md) → reaplica commits sobre outro ponto base.
+- [git clone](./../commands/clone.md) → clona um repositório em um novo diretório.
+- [git pull](./../commands/pull.md) → busca e integra alterações de outro repositório.
+- [git push](./../commands/push.md) → envia commits para um repositório remoto.
+- [git status](./../commands/status.md) → mostra o estado da árvore de trabalho.
+- [git log](./../commands/log.md) → exibe histórico de commits.
+- [git diff](./../commands/diff.md) → mostra diferenças entre commits ou entre commit e árvore de trabalho.
+- [git tag](./../commands/tag.md) → cria, lista ou exclui tags.
+- [git stash](./../commands/stash.md) → guarda temporariamente mudanças não commitadas.
+- [git restore](./../commands/restore.md) → restaura arquivos da árvore de trabalho.
+- [git reset](./../commands/reset.md) → redefine o HEAD para um estado específico.
+- [git revert](./../commands/revert.md) → desfaz commits existentes criando commits inversos.
+- [git cherry-pick](./../commands/cherry_pick.md) → aplica mudanças introduzidas por commits existentes.
+- [git mv](./../commands/mv.md) / [git rm](./../commands/rm.md) → mover/renomear ou remover arquivos do índice e da árvore de trabalho.
 - `git archive` → cria um arquivo compactado de uma árvore nomeada.
-- `git bisect` → busca binária para encontrar commit que introduziu bug.
+- [git bisect](./../commands/bisect.md) → busca binária para encontrar commit que introduziu bug.
 - `git gc` → otimiza e limpa arquivos desnecessários.
-- `git fetch` → baixa objetos e refs de outro repositório.
+- [git fetch](./../commands/fetch.md) → baixa objetos e refs de outro repositório.
 - `git format-patch` → prepara patches para submissão por e-mail.
 
 ---
@@ -46,10 +46,10 @@ Comandos de alto nível usados no dia a dia:
 ## 🛠 Ancillary Commands / Manipulators
 Ferramentas auxiliares para manipulação:
 
-- `git config` → define opções globais ou do repositório.
+- [git config](./../commands/config.md) → define opções globais ou do repositório.
 - `git filter-branch` → reescreve branches.
 - `git mergetool` → executa ferramentas de resolução de conflitos.
-- `git remote` → gerencia repositórios remotos.
+- [git remote](./../commands/remote.md) → gerencia repositórios remotos.
 - `git reflog` → gerencia histórico de referências.
 - `git repack` → compacta objetos.
 - `git replace` → cria/gerencia refs para substituir objetos.
