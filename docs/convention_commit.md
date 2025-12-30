@@ -1,4 +1,4 @@
-# 🧭 Guia de Convenção de Commits (COMMIT_CONVENTION.md)
+# 🧭 Git — Convenção de Commits
 
 ## 🧠 Objetivo
 
