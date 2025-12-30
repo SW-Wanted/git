@@ -54,15 +54,15 @@ git mv old.txt new.txt
 ```
 repo/
  ├── src/
- ├── old.txt
+ └── old.txt
 ```
 
 ### Após `git mv old.txt src/new.txt`
 
 ```
 repo/
- ├── src/
- │    └── new.txt
+ └── src/
+      └── new.txt
 ```
 
 E o índice já reflete a mudança.
