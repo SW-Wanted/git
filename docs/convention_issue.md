@@ -1,4 +1,4 @@
-# 🧭 Convenções e Boas Práticas para Criação de Issues
+# 🧭 Git — Convenção de Issues
 
 As *issues* são a base da organização e comunicação num projeto.  
 Elas permitem registar bugs, propor funcionalidades e documentar tarefas de forma rastreável e colaborativa.
