@@ -1,4 +1,5 @@
-# Branch
+# 📘 Git Branch — Guia de Referência
+
 `git branch` é o comando central para gerenciar branches no Git — listar, criar, renomear, copiar, excluir e configurar tracking com remotos. Ele oferece opções poderosas para filtrar branches, controlar upstream e personalizar comportamento.
 
 ## 🔑 Função Principal
