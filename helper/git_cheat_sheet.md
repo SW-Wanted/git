@@ -1,4 +1,4 @@
-# Git Cheat Sheet - Comandos e Funcionalidades
+# Git Cheat Sheet
 
 ## 1. Inicialização e Configuração
 
@@ -168,12 +168,3 @@ git clean -f              # remove arquivos não rastreados
 git fetch                 # baixa alterações do remoto sem aplicar
 git remote prune origin   # remove branches remotas deletadas
 ```
-
-## 11. Dicas Práticas
-
-- Sempre commit pequenos e com mensagens claras.
-- Use branches para funcionalidades ou exercícios isolados.
-- Antes de push, revise commits com `git log --oneline`.
-- Para corrigir commits esquecidos antes do push: `git commit --amend`.
-- Para combinar vários commits antes do push: `git rebase -i`.
-- Evite `git push --force` em
