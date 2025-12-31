@@ -1,4 +1,4 @@
-# Git Cheat Sheet
+# 📘 Git Cheat Sheet
 
 ## 1. Inicialização e Configuração
 
