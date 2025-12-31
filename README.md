@@ -13,3 +13,5 @@ Se você faz commits ruins é melhor ver as [convenções de commits](./docs/con
 Se você não sabe como fazer boas issues, vê [convenções de issues](./docs/convention_issue.md).
 
 Você também deveria saber um pouco sobre [ssh](./security/ssh.md) ou [gpg](./security/gpg.md).
+
+Se você não sabe o que outras pessoas podem fazer com o seu código, melhor ver [git licenses](./helper/git_licenses.md).
