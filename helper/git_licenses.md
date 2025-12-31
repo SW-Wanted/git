@@ -45,12 +45,12 @@ Isso não é apenas conveniência — muitas vezes é **obrigatório**.
 
 | Comunidade / Ecossistema | Licença preferida |
 |-------------------------|------------------|
-| Apache Foundation | Apache License 2.0 |
-| CNCF (Cloud Native) | Apache License 2.0 |
+| Apache Foundation | [Apache License 2.0](./../licenses/apache-2.0.md) |
+| CNCF (Cloud Native) | [Apache License 2.0](./../licenses/apache-2.0.md) |
 | GNU | GNU GPLv3 |
-| npm | MIT ou ISC |
+| npm | [MIT](./../licenses/apache-2.0.md) ou ISC |
 | OpenBSD | ISC |
-| Rust crates | MIT **ou** Apache 2.0 |
+| Rust crates | [MIT](./../licenses/mit.md) **ou** [Apache 2.0](./../licenses/apache-2.0.md) |
 | WordPress plugins | GPLv2 ou posterior |
 | Joomla extensions | GPLv2 (PHP) |
 
