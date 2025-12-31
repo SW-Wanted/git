@@ -11,3 +11,5 @@ Se você quer saber qual deve ser o fluxo de trabalho usando o git, vê o [git w
 Se você faz commits ruins é melhor ver as [convenções de commits](./docs/convention_commit.md).
 
 Se você não sabe como fazer boas issues, vê [convenções de issues](./docs/convention_issue.md).
+
+Você também deveria saber um pouco sobre [ssh](./security/ssh.md).
