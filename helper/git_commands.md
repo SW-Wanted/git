@@ -15,7 +15,7 @@ Os comandos do git podem ser agrupados em:
 ## 🔑 Main Porcelain Commands
 Comandos de alto nível usados no dia a dia:
 
-- `git add` → adiciona conteúdo de arquivos ao índice (staging).
+- [git add](./../commands/add.md) → adiciona conteúdo de arquivos ao índice (staging).
 - [git commit](./../commands/commit.md) → registra mudanças no repositório.
 - [git branch](./../commands/branch.md) → lista, cria ou exclui branches.
 - [git checkout](./../commands/checkout.md) → alterna branches ou restaura arquivos da árvore de trabalho.
