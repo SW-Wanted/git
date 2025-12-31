@@ -1,161 +1,228 @@
 # 📜 Licenças de Software
 
-Licenciar um projeto é uma **decisão técnica, jurídica e estratégica**.  
-Uma licença define **o que outras pessoas podem ou não fazer** com o seu código-fonte.
+Uma licença open source **protege quem contribui e quem usa**.  
+Projetos sem licença são, na prática, **código fechado por padrão**.
 
-Sem uma licença explícita, aplicam-se automaticamente as leis padrão de **copyright**,
-o que significa que **ninguém tem permissão legal** para usar, modificar ou redistribuir o código.
-
-> 📌 Se o objetivo é código aberto (*open source*), **licenciar não é opcional — é obrigatório**.
+> Empresas e desenvolvedores experientes **não usam projetos sem licença**.
 
 ---
 
-## 🧠 O que é uma licença de software?
+## 🧠 Por que escolher uma licença?
 
-Uma licença de software é um **contrato legal** entre o autor e os utilizadores do código,
-definindo:
+Sem uma licença explícita:
 
-- Direitos de uso
-- Permissões de modificação
-- Possibilidade de redistribuição
-- Requisitos legais (atribuição, copyleft, etc.)
-- Limitações de responsabilidade
+- ❌ Ninguém pode usar seu código legalmente
+- ❌ Não pode modificar
+- ❌ Não pode redistribuir
+- ❌ Não pode colaborar com segurança jurídica
 
----
+Com uma licença:
 
-## 🌍 Open Source e GitHub
-
-Repositórios públicos no GitHub são frequentemente usados para compartilhar software open source.
-
-⚠️ **Importante**:  
-Publicar código em um repositório público **não o torna automaticamente open source**.
-
-Sem licença:
-- ❌ Outros não podem copiar
-- ❌ Não podem modificar
-- ❌ Não podem redistribuir
-- ❌ Não podem usar legalmente
-
-Com licença:
-- ✔️ Regras claras
-- ✔️ Segurança jurídica
-- ✔️ Adoção facilitada
+- ✔️ Direitos e deveres claros
+- ✔️ Proteção legal
+- ✔️ Adoção comunitária
 - ✔️ Reconhecimento automático pelo GitHub
 
 ---
 
-## 🗂️ Onde colocar a licença?
+## 🧭 Como escolher uma licença open source
 
-Boas práticas recomendadas:
+A escolha depende **do seu contexto**.
 
-1. 📄 Arquivo `LICENSE` ou `LICENSE.md` na **raiz do repositório**
-2. 📘 Referência à licença no `README.md`
-3. 📁 (Opcional) Licenças organizadas em uma pasta dedicada
-
-Este repositório adota a seguinte estrutura:
-
-```text
-licenses/
-├── mit.md
-├── apache-2.0.md
-├── gpl-3.0.md
-└── ...
-````
+### ❓ Qual situação melhor descreve o seu projeto?
 
 ---
 
-## 🧭 Escolhendo a licença certa
+## 🤝 Preciso trabalhar em uma comunidade
 
-O GitHub mantém o site **choosealicense.com**, que ajuda a escolher a licença adequada
-com base em perguntas simples como:
+Se você contribui ou depende de um projeto existente:
 
-* Quero permitir uso comercial?
-* Quero obrigar que modificações também sejam open source?
-* Quero o mínimo de restrições possíveis?
+➡️ **Use a licença da comunidade**
 
-### Guia rápido:
+Isso não é apenas conveniência — muitas vezes é **obrigatório**.
 
-| Objetivo                       | Licença recomendada |
-| ------------------------------ | ------------------- |
-| Máxima liberdade               | MIT                 |
-| Proteção forte (copyleft)      | GPL                 |
-| Copyleft fraco                 | LGPL                |
-| Licença permissiva corporativa | Apache 2.0          |
-| Domínio público                | Unlicense / CC0     |
+### Exemplos de preferências comunitárias
 
----
+| Comunidade / Ecossistema | Licença preferida |
+|-------------------------|------------------|
+| Apache Foundation | Apache License 2.0 |
+| CNCF (Cloud Native) | Apache License 2.0 |
+| GNU | GNU GPLv3 |
+| npm | MIT ou ISC |
+| OpenBSD | ISC |
+| Rust crates | MIT **ou** Apache 2.0 |
+| WordPress plugins | GPLv2 ou posterior |
+| Joomla extensions | GPLv2 (PHP) |
 
-## 🧩 Famílias de licenças (principais)
+📌 **Regra de ouro**:  
+> Se o projeto base tem licença, **herde-a**.
 
-### 🔓 Licenças permissivas
-
-Permitem quase tudo, com poucas obrigações.
-
-* MIT
-* BSD (2-Clause, 3-Clause)
-* Apache 2.0
-* ISC
-* Zlib
-
-### 🔒 Licenças copyleft
-
-Exigem que trabalhos derivados mantenham a mesma licença.
-
-* GPL v2 / v3
-* AGPL
-* LGPL (copyleft fraco)
-
-### 🎨 Conteúdo não-código
-
-Usadas para documentação, textos, imagens e fontes.
-
-* Creative Commons (CC-BY, CC-BY-SA, CC0)
-* SIL Open Font License (OFL)
+Se uma dependência **não tiver licença**, peça educadamente aos mantenedores que adicionem uma.
 
 ---
 
-## 🔍 Identificação automática de licenças
+## ⚡ Quero algo simples e permissivo
 
-O GitHub utiliza a ferramenta **Licensee** para detectar licenças automaticamente.
+### 👉 Licença MIT
 
-Para garantir que a licença seja reconhecida:
+A **MIT License** é curta, direta e extremamente popular.
 
-* Use o **texto oficial** da licença
-* Evite modificações no arquivo LICENSE
-* Use licenças reconhecidas pelo **Choose a License**
+Ela permite:
+- Uso comercial
+- Modificação
+- Distribuição
+- Código fechado derivado
 
-Se houver múltiplas licenças ou exceções, documente no README.
+Exige apenas:
+- Preservar o aviso de copyright
+- Preservar o texto da licença
+
+Usada por:
+- Babel
+- .NET
+- Rails
+
+💡 Ideal para:
+- Bibliotecas
+- Ferramentas
+- Projetos educacionais
+- Máxima adoção
 
 ---
 
-## 🔗 Referências de licenças neste repositório
+## 🔁 Eu me importo em compartilhar melhorias
 
-Licenças documentadas:
+### 👉 GNU GPLv3
 
-* 📄 [MIT License](../licenses/mit.md)
+A **GPLv3** garante que:
+- O código continue livre
+- Modificações **também sejam open source**
+- Direitos de patentes sejam concedidos
 
-> Outras licenças serão adicionadas progressivamente.
+Ela **proíbe**:
+- Distribuição de versões fechadas
+
+Usada por:
+- Ansible
+- Bash
+- GIMP
+
+📌 Característica central:
+> *Copyleft forte*: quem redistribui **deve** compartilhar o código-fonte.
+
+📄 Licença completa:
+➡️ (a adicionar em `licenses/gpl-3.0.md`)
+
+💡 Ideal para:
+- Software livre ideológico
+- Ferramentas fundamentais
+- Projetos comunitários de longo prazo
 
 ---
 
-## ⚠️ Isenção de responsabilidade
+## ❓ E se nenhuma dessas funcionar?
 
-Este material tem **fins educacionais**.
-Não substitui aconselhamento jurídico profissional.
+---
 
-Se o projeto envolver:
+## 📂 Meu projeto não é software
+
+Licenças open source **não se limitam a código**.
+
+### 📊 Dados, mídia, datasets
+- CC0-1.0
+- CC-BY-4.0
+- CC-BY-SA-4.0
+
+⚠️ Creative Commons **não é recomendada para software**.
+
+### 📘 Documentação
+- Pode usar a **mesma licença do software**
+- Ou uma licença Creative Commons
+
+### 🔤 Fontes
+- SIL Open Font License 1.1 (OFL)
+
+### 🔧 Hardware
+- CERN-OHL-P (permissiva)
+- CERN-OHL-W (copyleft fraco)
+- CERN-OHL-S (copyleft forte)
+
+📌 Projetos mistos podem usar **múltiplas licenças**, desde que isso esteja **claramente documentado**.
+
+---
+
+## 🧩 Quero mais opções
+
+Licenças open source formam um **espectro**, do mais restritivo ao mais permissivo:
+
+```
+AGPL → GPL → LGPL → MPL → Apache → MIT → BSD → Unlicense
+```
+
+Algumas licenças importantes:
+
+- GNU AGPLv3 (copyleft máximo, rede = distribuição)
+- GNU GPLv3
+- GNU LGPLv3
+- Mozilla Public License 2.0
+- Apache License 2.0
+- MIT License
+- Boost Software License
+- Unlicense (domínio público)
+
+📁 Todas devem ser documentadas individualmente em: `licenses/`
+
+---
+
+## 🚫 Não quero escolher uma licença
+
+Então acontece o seguinte:
+
+- Seu código fica sob **copyright exclusivo**
+- Outros **não podem usar legalmente**
+- Colaborações ficam juridicamente frágeis
+
+Mesmo no GitHub:
+- Outros podem **ver e fazer fork**
+- Mas **não podem usar, modificar ou redistribuir**
+
+📌 Se isso for intencional:
+- Declare explicitamente no README
+- Considere um acordo de contribuidor (CLA)
+
+Se a ideia for **abrir mão totalmente do copyright**:
+- Use **Unlicense** ou **CC0**
+
+---
+
+## 🗂️ Onde colocar a licença no repositório
+
+Boas práticas:
+
+1. 📄 `LICENSE` ou `LICENSE.md` na raiz
+2. 📘 Referência no `README.md`
+3. 📁 Pasta `licenses/` para textos organizados
+
+---
+
+## ⚠️ Aviso legal
+
+Este guia é **educacional**.
+Não substitui aconselhamento jurídico.
+
+Para projetos com:
 
 * Uso comercial
 * Patentes
-* Distribuição corporativa
-* Jurisdições específicas
+* Contratos
+* Distribuição internacional
 
-➡️ Consulte um advogado especializado em software.
+➡️ Consulte um advogado especializado.
 
 ---
 
-## 📚 Leitura adicional
+## 📚 Referências
 
 * [https://choosealicense.com](https://choosealicense.com)
 * GitHub Open Source Guides
-* The Legal Side of Open Source
+* GNU Licenses — [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)
